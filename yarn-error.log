@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\AFARI\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/native
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\AFARI\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\AFARI\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\AFARI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.6\bin;C:\Users\AFARI\AppData\Local\GitHubDesktop\bin;C:\Users\AFARI\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\AFARI\AppData\Roaming\npm;C:\Users\AFARI\.dotnet\tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\AFARI\Documents\myWork\node_modules\@babel\preset-typescript\lib'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-masked-view/masked-view": "^0.2.6",
+      "@react-navigation/native": "^6.0.6",
+      "@react-navigation/stack": "^6.0.11",
+      "expo": "~42.0.1",
+      "expo-status-bar": "~1.0.4",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-web": "^0.17.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
